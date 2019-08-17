@@ -230,19 +230,11 @@ body {
    /*Media query */
 
    @media screen and (max-width: 960px) {
-    body {
-      background: red;
-
-    }
+   
   }
     @media screen and (max-width: 768px) {
-      body {
-        background: blue;
+     
+      @media screen and (max-width: 628px) {
+        
       }
     }
-      @media screen and (max-width: 628px) {
-        body {
-          background: green;
-          align-items: center;
-        }
-      }
